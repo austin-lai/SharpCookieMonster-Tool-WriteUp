@@ -16,9 +16,9 @@
     - [Testing SharpCookieMonster](#testing-sharpcookiemonster)
         - [Here our mini demo](#here-our-mini-demo)
         - [Using SharpCookieMonster with execute-assembly command from cobaltstrike beacon.](#using-sharpcookiemonster-with-execute-assembly-command-from-cobaltstrike-beacon)
-        - [Evaluate SharpCookieMonster Usability](#evaluate-sharpcookiemonster-usability)
-            - [**SharpCookieMonster with Python and Selenium**](#sharpcookiemonster-with-python-and-selenium)
-                - [**cookiex.py**](#cookiexpy)
+    - [Evaluate SharpCookieMonster Usability](#evaluate-sharpcookiemonster-usability)
+        - [**SharpCookieMonster with Python and Selenium**](#sharpcookiemonster-with-python-and-selenium)
+        - [**cookiex.py**](#cookiexpy)
     - [Conclusion](#conclusion)
 
 <!-- /TOC -->
@@ -205,7 +205,7 @@ Now we use `execute-assembly` command from cobaltstrike to execute the `SharpCoo
 
 <br>
 
-### Evaluate SharpCookieMonster Usability
+## Evaluate SharpCookieMonster Usability
 
 As shown below, the <span style="color:green">**Left Green Arrow**</span> are the cookies extracted from Google Chrome and the <span style="color:red">**Right Red Arrow**</span> are the cookies extracted using SharpCookieMonster.
 
@@ -219,7 +219,7 @@ However, cookies extracted using SharpCookieMonster show in the <span style="col
 
 <br />
 
-#### **SharpCookieMonster with Python and Selenium**
+### **SharpCookieMonster with Python and Selenium**
 
 We run some tests and researches on how the cookies extracted from SharpCookieMonster that can be imported and re-used in actual red team engagement.
 
@@ -229,7 +229,7 @@ We started to build the script called [cookiex.py](https://github.com/austin-lai
 
 <br />
 
-##### **[cookiex.py](https://github.com/austin-lai/SharpCookieMonster-Tool-WriteUp/blob/master/cookiex.py)**
+### **[cookiex.py](https://github.com/austin-lai/SharpCookieMonster-Tool-WriteUp/blob/master/cookiex.py)**
 
 There are several python packages to be installed and used in the script:
 
