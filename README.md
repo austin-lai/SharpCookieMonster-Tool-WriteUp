@@ -357,7 +357,7 @@ The `cookiex.py` script can be found [here](https://github.com/austin-lai/SharpC
 #%
 #================================================================
 #  TODO
-#    01/09/2022 : Austin Lai : Script cleanup
+#    
 #
 #================================================================
 # END_OF_HEADER
