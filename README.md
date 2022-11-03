@@ -696,27 +696,27 @@ if __name__ == '__main__':
 
 #### Using `pyinstaller`
 
-    ```
-    pip install pyinstaller
-    ```
+```
+pip install pyinstaller
+```
 
-    Then run the following:
+Then run the following:
 
-    ```
-    pyinstaller --onefile --nowindowed cookiex.py
-    ```
+```
+pyinstaller --onefile --nowindowed cookiex.py
+```
 
-    The EXE will be available at `dist` folder.
+The EXE will be available at `dist` folder.
 
 <br />
 
 #### Using `auto-py-to-exe` for GUI `pyinstaller`
 
-    ```
-    pip install auto-py-to-exe
-    ```
+```
+pip install auto-py-to-exe
+```
 
-    You may refer to <https://pypi.org/project/auto-py-to-exe/>
+You may refer to <https://pypi.org/project/auto-py-to-exe/>
 
 <br />
 
