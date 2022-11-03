@@ -21,6 +21,9 @@
         - [**cookiex.py**](#cookiexpy)
             - [**Script usage:**](#script-usage)
             - [**Script detail**](#script-detail)
+        - [OPTIONAL - Convert cookiex.py to EXE](#optional---convert-cookiexpy-to-exe)
+            - [Using pyinstaller](#using-pyinstaller)
+            - [Using auto-py-to-exe for GUI pyinstaller](#using-auto-py-to-exe-for-gui-pyinstaller)
         - [PoC using cookiex.py to import cookies extracted from SharpCookieMonster](#poc-using-cookiexpy-to-import-cookies-extracted-from-sharpcookiemonster)
     - [Conclusion](#conclusion)
 
@@ -686,6 +689,34 @@ if __name__ == '__main__':
 ```
 
 </details>
+
+<br />
+
+### OPTIONAL - Convert `cookiex.py` to EXE
+
+#### Using `pyinstaller`
+
+    ```
+    pip install pyinstaller
+    ```
+
+    Then run the following:
+
+    ```
+    pyinstaller --onefile --nowindowed cookiex.py
+    ```
+
+    The EXE will be available at `dist` folder.
+
+<br />
+
+#### Using `auto-py-to-exe` for GUI `pyinstaller`
+
+    ```
+    pip install auto-py-to-exe
+    ```
+
+    You may refer to <https://pypi.org/project/auto-py-to-exe/>
 
 <br />
 
