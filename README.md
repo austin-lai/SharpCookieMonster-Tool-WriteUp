@@ -26,6 +26,7 @@
             - [Using auto-py-to-exe for GUI pyinstaller](#using-auto-py-to-exe-for-gui-pyinstaller)
         - [PoC using cookiex.py to import cookies extracted from SharpCookieMonster](#poc-using-cookiexpy-to-import-cookies-extracted-from-sharpcookiemonster)
     - [Conclusion](#conclusion)
+  - [Disclaimer](#disclaimer)
 
 <!-- /TOC -->
 
